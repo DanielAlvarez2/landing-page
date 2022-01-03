@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+}
+html{
+    font-size:16px;
+    font-family: Roboto;
+}
+header, #hero, #footer{
+    background: #1F2937
+}
+header{
+    font-size:1.5rem;
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    padding: 1rem 23rem 1rem 27rem;
+}
+header li{
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: #E5E7EB;
+    list-style-type: none;
+    margin:0 2rem;
+}
+header ul{
+    display: flex;
+}
+nav{
+    margin-left: auto;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+#hero h1{
+    font-size: 3rem;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+#hero p{
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+#hero-left{
+    padding: 0 10rem 0 2rem;
+    max-width: 30%
+}
+#info{
+    text-align: center;
+    padding:5rem 0;
+}
+#info h2{
+    font-size: 2.25rem;
+    color: #1F2937;
+    font-weight: 900;
+}
+#card-box{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 2rem;
+}
+.card p{
+    max-width:200px;
+}
+#cta{
+    display: flex;
+}
+#blue{
+    background: #3882F6;
+    padding:2rem 5rem;
+    margin:4rem auto;
+    border-radius: .5rem;
+    width:55%;
+    display:flex;
+    justify-content: space-between;
+}
+.btn{
+    background: #3882F6;
+    color:#E5E7EB;
+    width: 6rem;
+    padding: 0.25rem 1rem;
+    border-radius:.5rem;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-style: solid;
+}
+#hero-left .btn{
+    margin-top: 1em;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-style: solid;
+}
+#quote{
+    background: #E5E7EB;
+    padding: 5rem 25rem;
+}
+#quote-text{
+    font-size: 2.25rem;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+#citation{
+    font-weight: 900;
+    text-align: right;
+    font-size: 1.5rem;;
+}
+#cta-text{
+    color:#F9FAF8
+}
+#footer{
+    margin-top:auto;
+    text-align: center;
+    color: #E5E7EB;
+    padding:1em;
+}
